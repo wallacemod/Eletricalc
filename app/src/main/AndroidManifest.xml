@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.calculadora">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="nosensor"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Calculadora">
+        <activity
+            android:name=".submenus.submenufisica1"
+            android:exported="false"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".zeletronicatransformacaodeltaestrela"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zeletronicatransformacaoestreladelta"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zeletronicaresistenciainternadocapacitor"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zeletronicaresistenciaequivalente"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zeletronicacorrentedebase"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zeletronicaimpedanciadebase"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zfisicaforcapeso"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zfisicaconversortemperatura"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zfisicaconversormassa"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zfisicaconversorcomprimento"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zfisicaconversorarea"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zmatematicajuroscompostos"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zmatematicajurossimples"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zquimicaentropia"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".menus.Menuquimica"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zfisicadensidade"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".zeletronicaleideohm"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".submenus.submenumatematica3"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".submenus.submenumatematica2"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".submenus.submenumatematica1"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".menus.Menueletronica"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".submenus.submenumatematica4"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".menus.Menu"
+            android:exported="true"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".zmatematicabhaskara"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".menus.Menufisica"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".menus.Menumatematica"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+    </application>
+
+</manifest>
