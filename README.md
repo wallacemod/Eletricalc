@@ -1,8 +1,12 @@
+![Telas do APP](screenshot/telas.jpg)
+
 #  Project
 
 Prototype of a calculator focusing on "Electrical Calculations". 
 
 This application was created for a school project of "IFTM - Instituto Federal do Triângulo Mineiro".
+
+[APK DOWNLOAD](https://github.com/wallacemod/Eletricalc/releases/tag/1.0)
 
 ## 💻 Technologies
 
